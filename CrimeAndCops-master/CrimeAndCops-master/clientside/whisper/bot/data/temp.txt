@@ -1,0 +1,78 @@
+- - punishment
+  - how may punishments are there?
+  - types of punishments are divided into categories
+-- which are they? 
+  - first keyword is used for death
+  -secondly keyword is used for imprisonment having two sub parts,(i)rigorous and (ii)simple
+  -fifthly keyword is used for Forfeiture of property
+  -sixthly means fine has to be paid
+
+--300. Murder
+  -2ndly.—If it is done with the intention of causing such bodily injury as the offender knows to be likely to cause the death of the person to whom the harm is caused, 
+  -3rdly.—If it is done with the intention of causing bodily injury to any person and the bodily injured intended to be inflicted is sufficient in the ordinary course of nature to cause death, 
+  -4thly.—If the person committing the act knows that it is so imminently dangerous that it must, in all probability, cause death, or such bodily injury as is likely to cause death, and commits such act without any excuse for incurring the risk of causing death or such injury as aforesaid.
+
+--80. Accident in doing a lawful act.
+   - Nothing is an offence which is done by accident or misfortune, and without any criminal intention or knowledge in the doing of a lawful act in a lawful manner by lawful means and with proper care and caution.
+
+--81. Act likely to cause harm, but done without criminal intent, and to prevent other harm
+   - Nothing is an offence merely by reason of its being done with the knowledge that it is likely to cause harm, if it be done without any criminal intention to cause harm, and in good faith for the purpose of preventing or avoiding other harm to person or property.
+
+--82 Act of a child under seven years of age.
+   - Nothing is an offence which is done by a child under aged
+
+--83.Act of a child above seven and under twelve of immature understanding.
+  - Nothing is an offence which is done by a child above seven years of age and under twelve, who has not attained sufficient maturity of understanding to judge of the nature and consequences of his conduct on that occasion.
+
+--84. Act of a person of unsound mind.
+  - Nothing is an offence which is done by a person who, at the time of doing it, by reason of unsoundness of mind, is incapable of knowing the nature of the act, or that he is doing what is either wrong or contrary to law  seven years of age.
+
+--94 Act to which a person is compelled by threats.
+   -Except murder, and offences against the State punishable with death
+    -1.A person who, of his own accord, or by reason of a threat of being beaten, joins a gang of dacoits, knowing their character, is not entitled to the benefit of this exception, on the ground of his having been compelled by his associates to do anything that is an offence by law.
+    -2.A person seized by a gang of dacoits, and forced, by threat of instant death, to do a thing which is an offence by law; for example, a smith compelled to take his tools and to force the door of a house for the dacoits to enter and plunder it, is entitled to the benefit of this exception.
+
+--95. Act causing slight harm.
+   -Nothing is an offence by reason that it causes, or that it is intended to cause, or that it is known to be likely to cause, any harm, if that harm is so slight that no person of ordinary sense and temper would complain of such harm.
+
+--378
+  -Theft
+  -In common usage, theft is the taking of another person's property without that person's permission or consent with the intent to deprive the rightful ownership of the property. The word is also used as an informal shorthand term for some crimes against property, such as burglary, embezzlement, larceny, looting, robbery, shoplifting and fraud. 
+--Punishment for theft 
+  -Punishment for theft has been stated under Section 379 of the Indian Penal Code. According to this Section of Indian Penal Code, whoever commits theft shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both. Under this section it has been stated that any person who commits the offence of theft will be punished with an imprisonment for a term of three years or with fine specified by the court or with both.
+
+
+--383
+  -Extortion
+  -Whoever intentionally puts any person in fear of any injury to that person, or to any other, and thereby dishonestly induces the person so put in fear to deliver to any person any property, or valuable security or anything signed or sealed which may be converted into a valuable security, commits ?extortion?.
+--Punishment for Extortion
+  -Whoever commits extortion shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both.
+
+
+--390
+  -In all robbery there is either theft or extortion.
+  -When theft is robbery ? Theft is ?robbery? if, in order to the committing of the theft, or in committing the theft, or in carrying away or attempting to carry away property obtained by the theft, the offender, for that end, voluntarily causes or attempts to cause to any person death or hurt or wrongful restraint, or fear of instant death or of instant hurt, or of instant wrongful restraint.
+  -When extortion is robbery ? Extortion is ?robbery? if the offender, at the time of committing the extortion, is in the presence of the person put in fear, and commits the extortion by putting that person in fear of instant death, of instant hurt, or of instant wrongful restraint to that person or to some other person, and, by so putting in fear, induces the person, so put in fear then and there to deliver up the thing extorted.
+--Punishment for robbery
+  -same as theft.
+   -Nothing is an offence by reason that it causes, or that it is intended to cause, or that it is known to be likely to cause, any harm, if that harm is so slight that no person of ordinary sense and temper would complain of such harm.
+
+--101.
+  - When such right extends to causing any harm other than death.
+  -If the offence be not of any of the descriptions enumerated in the last preceding section, the right of private defence of the body does not extend to the voluntary causing of death to the assailant, but does extend, under the restrictions mentioned in section 99, to the voluntary causing to the assailant of any harm other than death.
+
+--102. 
+  -Commencement and continuance of the right of private defence of the body.
+  -The right of private defence of the body commences as soon as a reasonable apprehension of danger to the body arises from an attempt or threat to commit the offence though the offence may not have been committed; and it continues as long as such apprehension of danger to the body continues.
+
+--103.
+  - When the right of private defence of property extends to causing death.
+  -The right of private defence of property extends, under the restrictions mentioned in section 99, to the voluntary causing of death or of any other harm to the wrong-doer, if the offence, the committing of which, or the attempting to commit which, occasions the exercise of the right, be an offence of any of the descriptions hereinafter enumerated, namely:—
+  -First: Robbery;
+  -Secondly: House-breaking by night;
+  -Thirdly: Mischief by fire committed on any building, tent or vessel, which building, tent or vessel is used as a human dwelling, or as a place for the custody of property;
+  -Fourthly:Theft, mischief, or house-trespass, under such circumstances as may reasonably cause apprehension that death or grievous hurt will be the consequence, if such right of private defence is not exercised.
+
+--104. 
+  -When such right extends to causing any harm other than death.
+  -If the offence, the committing of which, or the attempting to commit which occasions the exercise of the right of private defence, be theft, mischief, or criminal trespass, not of any of the descriptions enumerated in the last preceding section, that right does not extend to the voluntary causing of death, but does extend, subject to the restrictions mentioned in section 99, to the voluntary causing to the wrong-doer of any harm other than death.

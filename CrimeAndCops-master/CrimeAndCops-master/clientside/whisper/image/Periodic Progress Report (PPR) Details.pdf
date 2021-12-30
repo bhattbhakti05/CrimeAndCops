@@ -1,0 +1,275 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><style type="text/css">@media print {thead {display: table-header-group;}}#trDocument{display:none;}.ms-vh2-gridview{border: 1px solid black;font-size: 11px;}.printtextclass{font-size: 14px;font-family: Calibri;}.ms-vb2{border: 1px solid black;}.heading1{font-family: calibri, Arial, Verdana;font-size: 16px;font-weight: bold;color: #0f7da1;text-decoration: none;}.ms-formlabel{color: #525252;font-family: verdana;font-weight: normal;padding-bottom: 6px;padding-right: 8px;padding-top: 3px;}.line-page-heading{border-bottom: solid;border-bottom-color: Green;border-width: 1px;}.GridViewHeaderStyle{background-color: #c3dde0;border-width: 1px;padding: 8px;border-style: solid;border-color: #a9c6c9;}.GridViewAltRowStyle{background-color: #F0F8FF;font-weight: bold;color: black;}.GridRowStyle{background-color: #E6E6FA;font-weight: bold;color: black};.ms-formlabel{font:10px;}</style> <link rel="stylesheet" type="text/css" href="Periodic%20Progress%20Report%20(PPR)%20Details_files/GTUPMMS.htm"><title>Periodic Progress Report (PPR) Details</title></head><body style="border-top:0 px;" onload="self.print()"><left>
+        <table class="main-table">
+            <tbody><tr>
+                <td colspan="6" class="align-right">
+                    <input type="submit" name="ctl00$ContentPlaceHolder1$btnPrint" value="Print" onclick="javascript:CallPrint('divPrint');" id="ContentPlaceHolder1_btnPrint" title="Print" class="page-button">
+                    <input type="submit" name="ctl00$ContentPlaceHolder1$btnBack" value="Back" id="ContentPlaceHolder1_btnBack" tabindex="1" title="Back" class="page-button"></td>
+            </tr>
+            <tr>
+                <td colspan="6" class="ExtraLine"></td>
+            </tr>
+
+            <tr>
+                <td class="LeftLabelTextFormatMultiline">College  </td>
+                <td>:</td>
+                <td class="ControlsAlignmentMultiline" colspan="4">
+                    <span id="ContentPlaceHolder1_lblCollege">MADHUBEN AND BHANUBHAI PATEL WOMEN INSTITUTE OF ENGINEERING FOR STUDIES AND RESEARCH IN COMPUTER AND COMMUNICATION TECHNOLOGY</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="LeftLabelTextFormatMultiline" style="">StudentName  </td>
+                <td>:</td>
+                <td class="ControlsAlignmentMultiline">
+                    <span id="ContentPlaceHolder1_lblName" colspan="4">Bhatt Bhakti Dineshbhai</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="LeftLabelTextFormatMultiline" style="width: 11%;">EnrollmentNo </td>
+                <td style="width: 2%;">:</td>
+                <td class="ControlsAlignmentMultiline" style="width: 36%;">
+                    <span id="ContentPlaceHolder1_lblEnrollmentNo">150630116002</span>
+                </td>
+                <td class="LeftLabelTextFormatMultiline" style="width: 11%;">Department </td>
+                <td style="width: 2%;">:</td>
+                <td class="ControlsAlignmentMultiline" style="width: 36%;">
+                    <span id="ContentPlaceHolder1_lblDepartment">Information Technology</span></td>
+            </tr>
+
+            <tr>
+                <td class="LeftLabelTextFormat" style="">MobileNo  </td>
+                <td>:</td>
+                <td class="ControlsAlignment">
+                    <span id="ContentPlaceHolder1_lblMobileNo">9824162502</span>
+
+                </td>
+                <td class="LeftLabelTextFormat" style="">Discipline  </td>
+                <td>:</td>
+                <td class="ControlsAlignment">
+                    <span id="ContentPlaceHolder1_lblDiscipline">BE</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="LeftLabelTextFormat" style="">Email </td>
+                <td>:</td>
+                <td class="ControlsAlignment">
+                    <span id="ContentPlaceHolder1_lblEmail">bhaktibhatt01@gmail.com</span>
+
+                </td>
+                <td class="LeftLabelTextFormat" style="">Semester  </td>
+                <td>:</td>
+                <td class="ControlsAlignment">
+                    <span id="ContentPlaceHolder1_lblSemester">Semester 8</span>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="6" class="ExtraLine"></td>
+            </tr>
+            <tr>
+                <td colspan="6">
+                    <fieldset class="fieldset">
+                        <legend>
+                            <h2>PPR Details</h2>
+                        </legend>
+                        <table class="main-table" id="tblPrint">
+
+                            <tbody><tr>
+                                <td style="display: none">
+                                    <span class="LeftLabelTextFormat" style="">Time Interval :</span>
+                                    <span class="ControlsAlignment">
+                                        <span id="ContentPlaceHolder1_lblTimeInterval">2/8/2019 1:01:34 PM</span></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="LeftLabelTextFormat" style="">Periodic Progess Report :</span>
+                                    <span class="ControlsAlignment">
+                                        <span id="ContentPlaceHolder1_lblProgressReportCount" class="text-bold">First PPR</span></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table class="main-table">
+                                        <tbody><tr>
+                                            <td>
+                                                <span class="LeftLabelTextFormat" style="">Project :</span>
+                                                <span class="ControlsAlignment">
+                                                    <span id="ContentPlaceHolder1_lblProjectTitle">Crime and Cops</span></span>
+                                            </td>
+
+
+
+
+
+                                        </tr>
+                                    </tbody></table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="LeftLabelTextFormatMultiline" style="">Status :</span>
+                                    <span class="ControlsAlignmentMultiline">
+                                        <span id="ContentPlaceHolder1_lblStatus">Reviewed</span>
+                                        &nbsp;
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="ExtraLine"></td>
+                            </tr>
+                            <tr>
+                                <td class="LeftLabelTextFormat" style="">1. &nbsp;What Progress you have made in the Project ?
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td class="ControlsAlignmentMultilineForComments">
+                                    <span id="ContentPlaceHolder1_lblAnswer1">client side implementation started and trying to import template of chatbot in welcome page </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="ExtraLine"></td>
+                            </tr>
+                            <tr>
+                                <td class="LeftLabelTextFormat" style="">2. &nbsp;What challenge you have faced ?
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="ControlsAlignmentMultilineForComments">
+                                    <span id="ContentPlaceHolder1_lblAnswer2">while importing another template on exixting template</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="ExtraLine"></td>
+                            </tr>
+                            <tr>
+                                <td class="LeftLabelTextFormat" style="">3. &nbsp;What support you need ? 
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="ControlsAlignmentMultilineForComments">
+                                    <span id="ContentPlaceHolder1_lblAnswer3">overlapping is throwing so many errors</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="ExtraLine"></td>
+                            </tr>
+                            <tr>
+                                <td class="LeftLabelTextFormat" style="">4. &nbsp;Which literature you have referred ?
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="ControlsAlignmentMultilineForComments">
+                                    <span id="ContentPlaceHolder1_lblAnswer4">online tutorials and websites and w3 schools</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="ExtraLine"></td>
+                            </tr>
+                            <tr id="trDocument">
+                                <td class="LeftLabelTextFormat" style="">Document :
+                   
+                        <a id="ContentPlaceHolder1_hlnkbtnDocument" tabindex="2" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$hlnkbtnDocument','')">Download</a>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="ExtraLine"></td>
+                            </tr>
+                        </tbody></table>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="6" class="ExtraLine"></td>
+            </tr>
+            <tr>
+                <td colspan="6">
+                    <fieldset class="fieldset">
+                        <legend>
+                            <h2>Comments</h2>
+                        </legend>
+                        <table class="main-table">
+
+                            <tbody><tr id="trCaptionIG">
+                                <td class="LeftLabelTextFormat">Comment by Internal Guide :</td>
+                            </tr>
+                            <tr id="trValueIG">
+                                <td class="ControlsAlignmentMultilineForComments">
+                                    <span id="ContentPlaceHolder1_lblComments">None</span>
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td class="ExtraLine"></td>
+                            </tr>
+                            <tr id="trCaptionEG">
+                                <td class="LeftLabelTextFormat">Comment by External Guide :</td>
+                            </tr>
+                            <tr id="trValueEG">
+                                <td class="ControlsAlignmentMultilineForComments">
+                                    <span id="ContentPlaceHolder1_lblEGComments">None</span>
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td class="ExtraLine"></td>
+                            </tr>
+                            <tr id="trCaptionHOD">
+                                <td class="LeftLabelTextFormat">Comment by HOD :</td>
+                            </tr>
+                            <tr id="trValueHOD">
+                                <td class="ControlsAlignmentMultilineForComments">
+                                    <span id="ContentPlaceHolder1_lblHODComments">None</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="ExtraLine"></td>
+                            </tr>
+                            <tr id="trCaptionPrincipal">
+                                <td class="LeftLabelTextFormat">Comment by Principal :</td>
+                            </tr>
+                            <tr id="trValuePrincipal">
+                                <td class="ControlsAlignmentMultilineForComments">
+                                    <span id="ContentPlaceHolder1_lblPrincipalComments">None</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="ExtraLine"></td>
+                            </tr>
+                            <tr id="trCaptionUA">
+                                <td class="LeftLabelTextFormat">Comment by University Admin :</td>
+                            </tr>
+                            <tr id="trValueUA">
+                                <td class="ControlsAlignmentMultilineForComments">
+                                    <span id="ContentPlaceHolder1_lblUAComments">None</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="ExtraLine"></td>
+                            </tr>
+                            
+
+                            
+                            <tr>
+                                <td class="ExtraLine"></td>
+                            </tr>
+                            
+                            
+                            <tr>
+                                <td class="ExtraLine"></td>
+                            </tr>
+
+                            
+                            <tr>
+                                <td class="ExtraLine"></td>
+                            </tr>
+                        </tbody></table>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td class="ExtraLine"></td>
+            </tr>
+        </tbody></table>
+    </left></body></html>

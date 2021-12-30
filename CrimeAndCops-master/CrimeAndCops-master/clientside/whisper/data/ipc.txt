@@ -1,0 +1,20 @@
+--378
+-Theft
+-In common usage, theft is the taking of another persons property without that person's permission or consent with the intent to deprive the rightful ownership of the property. The word is also used as an informal shorthand term for some crimes against property, such as burglary, embezzlement, larceny, looting, robbery, shoplifting and fraud. 
+--Punishment for theft 
+-Punishment for theft has been stated under Section 379 of the Indian Penal Code. According to this Section of Indian Penal Code, whoever commits theft shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both. Under this section it has been stated that any person who commits the offence of theft will be punished with an imprisonment for a term of three years or with fine specified by the court or with both.
+
+
+--383
+  -Extortion
+  -Whoever intentionally puts any person in fear of any injury to that person, or to any other, and thereby dishonestly induces the person so put in fear to deliver to any person any property, or valuable security or anything signed or sealed which may be converted into a valuable security, commits ?extortion?.
+--Punishment for Extortion
+  -Whoever commits extortion shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both.
+
+
+--390
+  -In all robbery there is either theft or extortion.
+  -When theft is robbery ? Theft is ?robbery? if, in order to the committing of the theft, or in committing the theft, or in carrying away or attempting to carry away property obtained by the theft, the offender, for that end, voluntarily causes or attempts to cause to any person death or hurt or wrongful restraint, or fear of instant death or of instant hurt, or of instant wrongful restraint.
+  -When extortion is robbery ? Extortion is ?robbery? if the offender, at the time of committing the extortion, is in the presence of the person put in fear, and commits the extortion by putting that person in fear of instant death, of instant hurt, or of instant wrongful restraint to that person or to some other person, and, by so putting in fear, induces the person, so put in fear then and there to deliver up the thing extorted.
+--Punishment for robbery
+  -same as theft.

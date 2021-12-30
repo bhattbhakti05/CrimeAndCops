@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\AdminPanel",
+    "\\App_Data",
+    "\\clientside",
+    "\\clientside\\whisper",
+    "\\clientside\\whisper\\bot",
+    "\\clientside\\whisper\\bot\\data",
+    "\\clientside\\whisper\\image"
+  ],
+  "SelectedNode": "\\clientside\\whisper\\policestationloginpage.aspx.cs",
+  "PreviewInSolutionExplorer": false
+}

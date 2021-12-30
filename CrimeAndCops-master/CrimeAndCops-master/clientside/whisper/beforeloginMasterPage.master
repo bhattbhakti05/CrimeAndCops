@@ -1,0 +1,635 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="beforeloginMasterPage.master.cs" Inherits="clientside_whisper_beforeloginMasterPage" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxToolkit" %>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CrimenCops</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+      <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style>
+        .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        padding-top: 100px; /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+        }
+        .modal-content {
+        position: relative;
+        background-color: #fefefe;
+        margin: auto;
+        padding: 0;
+        border: 1px solid #888;
+        width: 80%;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+        -webkit-animation-name: animatetop;
+        -webkit-animation-duration: 0.4s;
+        animation-name: animatetop;
+        animation-duration: 0.4s
+        }
+
+        /* Add Animation */
+        @-webkit-keyframes animatetop {
+        from {top:-300px; opacity:0} 
+        to {top:0; opacity:1}
+        }
+
+        @keyframes animatetop {
+        from {top:-300px; opacity:0}
+        to {top:0; opacity:1}
+        }
+
+        /* The Close Button */
+        .close {
+        color: white;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+        }
+
+        .modal-header {
+        padding: 2px 16px;
+        background-color: #eac15a;
+        color: white;
+        }
+
+        .modal-body {padding: 2px 16px;}
+
+        .modal-footer {
+        padding: 2px 16px;
+        background-color: #eac15a;
+        color: white;
+        }
+    </style>
+
+  </head>
+
+  <body>
+       <form id="form1" runat="server">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+    
+	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html"></a>
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <%--<ul class="navbar-nav ml-auto">
+	         <li class="nav-item"><a href="" class="nav-link">
+                <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click1">login with gmail</asp:LinkButton></a></li>
+	        </ul>--%>
+	      </div>
+	    </div>
+	  </nav>
+    <!-- END nav -->
+    
+    <div class="hero-wrap js-fullheight" style="background-image: url('images/bg_1.jpg');" data-stellar-background-ratio="0.5">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
+          <div class="col-md-10 text-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+          	<h2 class="subheading" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">We are here to help!</h2>
+            <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">
+            	<span>Experience</span> . <span>Innovation</span> . <span>Excellence</span>
+            </h1>
+            <p><a  class="btn btn-primary py-3 px-4">Welcome</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+          
+    <section class="ftco-section ftco-no-pb services-section">
+      <div class="container">
+        <div class="row no-gutters d-flex">
+          <div class="col-md-3 text-center services align-self-stretch ftco-animate p-4">
+            <div class="icon"><span class="flaticon-auction"></span></div>
+            <div class="media-body">
+              <h3 class="heading mb-3"><a href="lawyerloginpage.aspx"> Lawyer</a></h3>
+            </div>
+          </div>
+          <div class="col-md-3 text-center services align-self-stretch ftco-animate p-4">
+            <div class="icon"><span class="flaticon-handcuffs"></span></div>
+            <div class="media-body">
+              <h3 class="heading mb-3"><a href="policestationloginpage.aspx">Police Station</a></h3>
+            </div>
+          </div>
+          <div class="col-md-3 text-center services align-self-stretch ftco-animate p-4">
+            <div class="icon"><span class="flaticon-lawyer"></span></div>
+            <div class="media-body">
+              <h3 class="heading mb-3"><a href="citizenloginpage.aspx">Citizen</a></h3>
+            </div>
+          </div>
+          <div class="col-md-3 text-center services align-self-stretch ftco-animate p-4">
+            <div class="icon"><span class="ion-ios-help-circle-outline"></span></div>
+            <div class="media-body">
+              <h3 class="heading mb-3"><a href="bot/indexc.html">Any Questions?Chat with us</a></h3>
+              
+            </div>
+          </div>
+      </div>
+      </div>
+    </section>
+   
+    <section class="ftco-counter" id="section-counter">
+    	<div class="container-fluid">
+    		<div class="row d-flex">
+    			<div class="col-md-6 d-flex">
+    				<div class="img d-flex align-self-stretch align-items-center justify-content-center" style="background-image:url(satya.jpg);"></div>
+    			</div>
+    			<div class="col-md-6 px-5 py-5">
+    				<div class="row justify-content-start pt-3 pb-3">
+		              <div class="col-md-12 heading-section ftco-animate">
+		          	    <span class="subheading">Fun Facts</span>
+		                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+		              </div>
+		            </div>
+		            <div class="row">
+                        <div class="col-md-6 justify-content-center counter-wrap ftco-animate">
+                            <div class="block-18 text-center py-4 bg-light mb-4">
+                                <div class="text">
+                                    <div class="icon d-flex justify-content-center align-items-center"><span class="flaticon-lawyer"></span></div>
+                                    <asp:DataList ID="DataList1" runat="server" DataSourceID="SqlDataSource1" RepeatDirection="Horizontal" RepeatLayout="Flow">
+                                    <ItemTemplate><strong class="number" data-number='<%# Eval("Expr1") %>'></strong></ItemTemplate>
+                                    </asp:DataList>
+                                    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:BD %>" SelectCommand="SELECT COUNT(*) AS Expr1 FROM lawyer_db"></asp:SqlDataSource>
+                                </div>
+                                <span>Qualified Lawyers</span>
+                            </div>
+                        </div>
+                        <div class="col-md-6 justify-content-center counter-wrap ftco-animate">
+                            <div class="block-18 text-center py-4 bg-light mb-4">
+                                <div class="text">
+                                    <div class="icon d-flex justify-content-center align-items-center"><span class="flaticon-handshake"></span></div>
+                                    <asp:DataList ID="DataList3" runat="server" DataSourceID="SqlDataSource3" RepeatDirection="Horizontal" RepeatLayout="Flow">
+                                    <ItemTemplate><strong class="number" data-number='<%# Eval("Expr1") %>'></strong></ItemTemplate>
+                                    </asp:DataList>
+                                    <asp:SqlDataSource ID="SqlDataSource3" runat="server" ConnectionString="<%$ ConnectionStrings:BD %>" SelectCommand="SELECT COUNT(*) AS Expr1 FROM user_db"></asp:SqlDataSource>
+                                </div>
+                                <span>Trusted Clients</span>
+                            </div>
+                        </div>
+                        <div class="col-md-6 justify-content-center counter-wrap ftco-animate">
+                            <div class="block-18 text-center py-4 bg-light mb-4">
+                                <div class="text">
+                                    <div class="icon d-flex justify-content-center align-items-center"><span class="ion-ios-checkbox-outline"></span></div>
+                                    <asp:DataList ID="DataList2" runat="server" DataSourceID="SqlDataSource2" RepeatDirection="Horizontal" RepeatLayout="Flow">
+                                    <ItemTemplate><strong class="number" data-number='<%# Eval("Expr1") %>'></strong></ItemTemplate>
+                                    </asp:DataList>
+                                    <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:BD %>" SelectCommand="SELECT COUNT(*) AS Expr1 FROM compl_db"></asp:SqlDataSource>          
+                                    <span>Register Cases</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 justify-content-center counter-wrap ftco-animate">
+                            <div class="block-18 text-center py-4 bg-light mb-4">
+                                <div class="text">
+                                    <div class="icon d-flex justify-content-center align-items-center"><span class="flaticon-medal"></span></div>
+                                    <asp:DataList ID="DataList4" runat="server" DataSourceID="SqlDataSource3" RepeatDirection="Horizontal" RepeatLayout="Flow">
+                                    <ItemTemplate><strong class="number" data-number='<%# Eval("Expr1") %>'></strong></ItemTemplate>
+                                    </asp:DataList>
+                                    <asp:SqlDataSource ID="SqlDataSource4" runat="server" ConnectionString="<%$ ConnectionStrings:BD %>" SelectCommand="SELECT COUNT(*) AS Expr1 FROM court_date"></asp:SqlDataSource>
+                                </div>
+                                <span>Solved Cases</span>
+                                </div>
+                            </div>
+                        </div>
+		            </div>
+	            </div>
+            </div>
+    	
+    </section>
+
+    <section class="ftco-section bg-light">
+    	<div class="container">
+    		<div class="row justify-content-center mb-5 pb-3">
+              <div class="col-md-7 text-center heading-section ftco-animate"><h2 class="mb-4">Practice Areas</h2></div>
+            </div>
+            <div class="row d-flex justify-content-center">
+        	    <div class="col-md-3 col-lg-2 text-center">
+        		    <div class="practice-area ftco-animate">
+        			    <div class="icon d-flex justify-content-center align-items-center"><span class="flaticon-family"></span></div>
+                        <a id="myBtn">Family Law</a>
+        		    </div>
+        	    </div>
+                <div class="col-md-3 col-lg-2 text-center">
+                    <div class="practice-area ftco-animate">
+                        <div class="icon d-flex justify-content-center align-items-center">
+        	                <span class="flaticon-auction"></span>
+                        </div>
+                        <a id="myBtn1">Business Law</a>
+                    </div>
+                </div>
+        	    <div class="col-md-3 col-lg-2 text-center">
+        		    <div class="practice-area ftco-animate">
+        			    <div class="icon d-flex justify-content-center align-items-center">
+        				    <span class="flaticon-shield"></span>
+        			    </div>
+                        <a id="myBtn2">Insurance Law</a>
+                        
+        		    </div>
+        	    </div>
+        	    <div class="col-md-3 col-lg-2 text-center">
+        		    <div class="practice-area ftco-animate">
+        			    <div class="icon d-flex justify-content-center align-items-center">
+        				    <span class="flaticon-handcuffs"></span>
+        			    </div>
+                         <a id="myBtn3">Criminal Law</a>
+                         
+        		    </div>
+        	    </div>
+        	    <div class="col-md-3 col-lg-2 text-center">
+        		    <div class="practice-area ftco-animate">
+        			    <div class="icon d-flex justify-content-center align-items-center">
+        				    <span class="flaticon-house"></span>
+        			    </div>
+                        <a id="myBtn4">Property Law</a>
+        		    </div>
+        	    </div>
+        	    <div class="col-md-3 col-lg-2 text-center">
+        		    <div class="practice-area ftco-animate">
+        			    <div class="icon d-flex justify-content-center align-items-center">
+        				    <span class="flaticon-employee"></span>
+        			    </div>
+        			    <%--<h3><a href="#">Employment Law</a></h3>--%>
+                         <a id="myBtn5">Employment Law</a>
+        		    </div>
+        	    </div>
+        	    <div class="col-md-3 col-lg-2 text-center">
+        		    <div class="practice-area ftco-animate">
+        			    <div class="icon d-flex justify-content-center align-items-center">
+        				    <span class="flaticon-fire"></span>
+        			    </div>
+        			    <%--<h3><a href="#">Fire Accident</a></h3>--%>
+                        <a id="myBtn6"> Accident Law</a>
+        		    </div>
+        	    </div>
+        	    <div class="col-md-3 col-lg-2 text-center">
+        		    <div class="practice-area ftco-animate">
+        			    <div class="icon d-flex justify-content-center align-items-center">
+        				    <span class="flaticon-money"></span>
+        			    </div>
+        			    <%--<h3><a href="#">Financial Law</a></h3>--%>
+                        <a id="myBtn7">Financial Law</a>
+        		    </div>
+        	    </div>
+        	    <div class="col-md-3 col-lg-2 text-center">
+        		    <div class="practice-area ftco-animate">
+        			    <div class="icon d-flex justify-content-center align-items-center">
+        				    <span class="flaticon-medicine"></span>
+        			    </div>
+        			    <%--<h3><a href="#">Drug Offenses</a></h3>--%>
+                        <a id="myBtn8">Drug Offenses</a>
+        		    </div>
+        	    </div>
+        	    <div class="col-md-3 col-lg-2 text-center">
+        		    <div class="practice-area ftco-animate">
+        			    <div class="icon d-flex justify-content-center align-items-center">
+        				    <span class="flaticon-handcuffs"></span>
+        			    </div>
+        			    <%--<h3><a href="#">Sexual Offenses</a></h3>--%>
+                        <a id="myBtn9">Sexual Offenses</a>
+        		    </div>
+        	    </div>
+            </div>
+    	</div>
+        <div id="myModal" class="modal" style="text-align:left;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Family Law</h2>
+                    <span class="close">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <p>Family law (also called matrimonial law or the law of domestic relations) is an area of the law that deals with family matters and domestic relations.</p>
+                    <p>Subjects that commonly fall under a nation's body of family law include:
+                        Marriage, civil unions, and domestic partnerships:
+                        -> Entry into legally recognized spousal and domestic relationships
+                        ->The termination of legally recognized family relationships and ancillary matters, including divorce, annulment, property settlements, alimony, child custody and visitation, child support and alimony awards</p>
+                     <p>   Adoption: proceedings to adopt a child and, in some cases, an adult.</p>
+                     <p>   Surrogacy: the law and process of giving birth as a surrogate mother.</p>
+                    <p>    Child protective proceedings: court proceedings that may result from state intervention in cases of child abuse and child neglect.</p>
+                      <p>  Juvenile law: Matters relating to minors including status offenses, delinquency, emancipation and juvenile adjudication.</p>
+                    <p>    Paternity: proceedings to establish and disestablish paternity, and the administration of paternity testing.</p>
+                    
+                </div>               
+            </div>
+        </div>
+        <div id="myModal1" class="modal" style="text-align:left;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Business Law</h2>
+                    <span class="close">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <p>Corporate law (also known as business law or enterprise law or sometimes company law) is the body of law governing the rights, relations, and conduct of persons, companies, organizations and businesses. It refers to the legal practice relating to, or the theory of corporations. Corporate law often describes the law relating to matters which derive directly from the life-cycle of a corporation. It thus encompasses the formation, funding, governance, and death of a corporation. </p>
+                    <p>While the minute nature of corporate governance as personified by share ownership, capital market, and business culture rules differ, similar legal characteristics - and legal problems - exist across many jurisdictions. Corporate law regulates how corporations, investors, shareholders, directors, employees, creditors, and other stakeholders such as consumers, the community, and the environment interact with one another. Whilst the term company or business law is colloquially used interchangeably with corporate law, business law often refers to wider concepts of commercial law, that is, the law relating to commercial or business related activities. In some cases, this may include matters relating to corporate governance or financial law. When used as a substitute for corporate law, business law means the law relating to the business corporation (or business enterprises), i.e. capital raising (through equity or debt), company formation, registration, etc. </p>
+                </div>
+            </div>
+        </div>
+        <div id="myModal2" class="modal" style="text-align:left;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Insurance Law</h2>
+                    <span class="close">&times;</span>
+                </div>
+                <div class="modal-body">
+                   <p>Insurance law is the practice of law surrounding insurance, including insurance policies and claims. It can be broadly broken into three categories - regulation of the business of insurance; regulation of the content of insurance policies, especially with regard to consumer policies; and regulation of claim handling. </p>
+             
+                </div>
+               
+            </div>
+        </div>
+        <div id="myModal3" class="modal" style="text-align:left;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Criminal Law</h2>
+                    <span class="close">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <p>Criminal law is the body of law that relates to crime. It proscribes conduct perceived as threatening, harmful, or otherwise endangering to the property, health, safety, and moral welfare of people inclusive of one's self. Most criminal law is established by statute, which is to say that the laws are enacted by a legislature. Criminal law includes the punishment and rehabilitation of people who violate such laws. Criminal law varies according to jurisdiction, and differs from civil law, where emphasis is more on dispute resolution and victim compensation, rather than on punishment or rehabilitation. Criminal procedure is a formalized official activity that authenticates the fact of commission of a crime and authorizes punitive or rehabilitative treatment of the offender.  </p>
+             
+                </div>
+               
+            </div>
+        </div>
+        <div id="myModal4" class="modal" style="text-align:left;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Property Law</h2>
+                    <span class="close">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <p>Property law is the area of law that governs the various forms of ownership and tenancy in real property (land as distinct from personal or movable possessions) and in personal property, within the common law legal system. In the civil law system, there is a division between movable and immovable property. Movable property roughly corresponds to personal property, while immovable property corresponds to real estate or real property, and the associated rights, and obligations thereon. </p>
+                    <p>The concept, idea or philosophy of property underlies all property law. In some jurisdictions, historically all property was owned by the monarch and it devolved through feudal land tenure or other feudal systems of loyalty and fealty.</p>
+                </div>
+               
+            </div>
+        </div>
+    <div id="myModal5" class="modal" style="text-align:left;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Employment Law</h2>
+                    <span class="close">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <p>Labour law (US spelling: labor law, sometimes incorrectly conflated with employment law) is the area of law most commonly relating to the relationship between trade unions, employers and the government. </p>
+                    <p>While the development of the field in different jurisdictions has resulted in different specific meanings of what is meant by labour law, it is generally used in reference to employment contexts that involve a trade union, while the term employment law is usually used for workplaces where the legal relationship is directly between the employer and the employee. While in some jurisdictions the term may be used to refer to such law that may not involve trade unions, the genesis of the term is historically inseparable and begins with the labour union movements. </p>
+                    <p>At the statutory level, Labour law is concerned with the establishment of a labour-relations framework that provides for orderly and peaceful industrial relations between employers and organized workers, and usually includes rules on forming a union, conditions under which the union becomes bargaining agent, strikes and lock-outs, process for negotiations, and other structural elements that then permit the employer and the union to bargain a collective agreement and fill-in the rest specific to rules and conditions relating to the workplace. It arises primarily from and in the context of British common law and related jurisdictions, to which it is also historically linked as wage work begins in the Industrial Revolution, and in this way, labour law and related concepts mark a departure from the tradition of contract law that existed previously for master-servant relations to that point. Labour law is not the law that regulates minimum standards of employment in most British common law jurisdictions, but is the law that pertains to the rules meant to provide a framework for labour relations and collective bargaining. Employment law, or employment standards law, refers to the regulations in statute law that establish minimum conditions relating to the employment of persons, such as minimum working age, minimum hourly wage, and so on. </p>
+                </div>
+               
+            </div>
+        </div>
+    <div id="myModal6" class="modal" style="text-align:left;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Accident Law</h2>
+                    <span class="close">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <p>An accident, also known as an unintentional act, is an undesirable, incidental, and an unplanned event that could have been prevented had circumstances leading up to the accident been recognized, and acted upon, prior to its occurrence. Most scientists who study unintentional injury avoid using the term "accident" and focus on factors that increase risk of severe injury and that reduce injury incidence and severity</p>
+                   
+                </div>
+               
+            </div>
+        </div>
+    <div id="myModal7" class="modal" style="text-align:left;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Financial Law</h2>
+                    <span class="close">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <p>Financial law is a branch of law that examines the financial markets, specifically insurance, derivatives, commercial banking, capital markets and investment management sector. Financial law is formed through three methods financial regulation, case law, and market practice. It forms a part of commercial law but on the aspects which relate to finance. For an overview, see the financial law article. </p>
+                    <p>Some other text...</p>
+                </div>
+               
+            </div>
+        </div>
+    <div id="myModal8" class="modal" style="text-align:left;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Drug Offenses</h2>
+                    <span class="close">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <p>The major drug laws of India are the Narcotic Drugs and Psychotropic Substances Act (1985) and the Prevention of Illicit Trafficking in Narcotic Drugs and Psychotropic Substances Act (1985). </p>
+                   
+                </div>
+               
+            </div>
+        </div>
+    <div id="myModal9" class="modal" style="text-align:left;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Sexual Offenses</h2>
+                    <span class="close">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <p>The Bill for an Act with this short title may have been known as a Sexual Offences Bill during its passage through Parliament.
+
+Sexual Offences Acts may be a generic name for legislation bearing that short title.</p>
+                    
+                </div>
+               
+            </div>
+        </div>
+    </section>
+    <footer class="ftco-footer ftco-bg-dark ftco-section">
+    </footer>
+    
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/jquery.timepicker.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+    <script>
+        // Get the modal
+        var modal = document.getElementById('myModal');
+        var modal1 = document.getElementById('myModal1');
+        var modal2 = document.getElementById('myModal2');
+        var modal3 = document.getElementById('myModal3');
+        var modal4 = document.getElementById('myModal4');
+        var modal5 = document.getElementById('myModal5');
+        var modal6 = document.getElementById('myModal6');
+        var modal7 = document.getElementById('myModal7');
+        var modal8 = document.getElementById('myModal8');
+         var modal9 = document.getElementById('myModal9');
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
+        var btn1 = document.getElementById("myBtn1");
+        var btn2 = document.getElementById("myBtn2");
+         var btn3 = document.getElementById("myBtn3");
+        var btn4 = document.getElementById("myBtn4");
+        var btn5 = document.getElementById("myBtn5");
+         var btn6 = document.getElementById("myBtn6");
+        var btn7 = document.getElementById("myBtn7");
+        var btn8 = document.getElementById("myBtn8");
+         var btn9 = document.getElementById("myBtn9");
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+        var span1 = document.getElementsByClassName("close")[1];
+        var span2 = document.getElementsByClassName("close")[2];
+        var span3 = document.getElementsByClassName("close")[3];
+        var span4 = document.getElementsByClassName("close")[4];
+        var span5 = document.getElementsByClassName("close")[5];
+        var span6 = document.getElementsByClassName("close")[6];
+        var span7 = document.getElementsByClassName("close")[7];
+        var span8 = document.getElementsByClassName("close")[8];
+        var span9 = document.getElementsByClassName("close")[9];
+        // When the user clicks the button, open the modal 
+        btn.onclick = function() {
+            modal.style.display = "block";
+        }
+        btn1.onclick = function() {
+            modal1.style.display = "block";
+        }
+         btn2.onclick = function() {
+            modal2.style.display = "block";
+        }
+        btn3.onclick = function() {
+            modal3.style.display = "block";
+        }
+        btn4.onclick = function() {
+            modal4.style.display = "block";
+        }
+         btn5.onclick = function() {
+            modal5.style.display = "block";
+        }
+        btn6.onclick = function() {
+            modal6.style.display = "block";
+        }
+        btn7.onclick = function() {
+            modal7.style.display = "block";
+        }
+         btn8.onclick = function() {
+            modal8.style.display = "block";
+        }
+        btn9.onclick = function() {
+            modal9.style.display = "block";
+        }
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+        span1.onclick = function() {
+            modal1.style.display = "none";
+        }
+        span2.onclick = function() {
+            modal2.style.display = "none";
+        }
+        span3.onclick = function() {
+            moda3.style.display = "none";
+        }
+        span4.onclick = function() {
+            modal4.style.display = "none";
+        }
+        span5.onclick = function() {
+            modal5.style.display = "none";
+        }
+        span6.onclick = function() {
+            modal6.style.display = "none";
+        }
+        span7.onclick = function() {
+            modal7.style.display = "none";
+        }
+        span8.onclick = function() {
+            modal8.style.display = "none";
+        }
+        span9.onclick = function() {
+            modal9.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+            }
+            if (event.target == modal1) {
+            modal1.style.display = "none";
+            }
+            if (event.target == modal2) {
+            modal2.style.display = "none";
+            }
+            if (event.target == modal3) {
+            modal3.style.display = "none";
+            }
+            if (event.target == modal4) {
+            modal4.style.display = "none";
+            }
+            if (event.target == modal5) {
+            modal5.style.display = "none";
+            }
+            if (event.target == modal6) {
+            modal6.style.display = "none";
+            }
+            if (event.target == modal7) {
+            modal7.style.display = "none";
+            }
+            if (event.target == modal8) {
+            modal8.style.display = "none";
+            }
+            if (event.target == modal9) {
+            modal9.style.display = "none";
+          }
+        }
+    </script>
+    </form>
+  </body>
+</html>
